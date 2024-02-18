@@ -1,0 +1,265 @@
+.goodoftheday-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.goodoftheday-wrapper .content_wrapper_block {
+  border-bottom: none !important;
+}
+
+.title-goodoftheday {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.goodoftheday_special-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.goodoftheday_special-wrapper .cost.prices .strike_block .price span {
+  text-decoration: none !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.top_big_banners .special_wrapper {
+  padding: 20px 0 10px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.top_big_banners .special_wrapper .child {
+  width: 100%;
+}
+
+.goodoftheday-wrapper .items {
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 345px;
+}
+
+.goodoftheday-wrapper .item {
+  width: 100% !important;
+  min-width: 300px;
+  float: none !important;
+}
+
+.goodoftheday-wrapper .image {
+  width: -webkit-fill-available !important;
+}
+
+.goodoftheday-wrapper .hot-wrapper-items .item .image-wrapper {
+  min-height: 200px !important;
+}
+
+.goodoftheday-wrapper .hot-wrapper-items .item .footer-action {
+  padding: 5px 0 !important;
+}
+
+.goodoftheday-wrapper .hot-wrapper-items .items .flexslider {
+  top: -100px !important;
+}
+
+.goodoftheday-wrapper .hot-wrapper-items .item_info_wrapper {
+  padding-left: 0;
+}
+
+.goodoftheday-wrapper .flex-nav-prev,
+.goodoftheday-wrapper .flex-nav-next {
+  z-index: 999 !important;
+}
+
+.goodoftheday-wrapper .flex-nav-prev {
+  left: -15px !important;
+}
+.goodoftheday-wrapper .flex-nav-next {
+  right: 45px !important;
+}
+
+.goodoftheday-wrapper .hot-wrapper-items {
+  padding-bottom: 0 !important;
+}
+
+.special_wrapper .swiper-slide,
+.special_wrapper .top_slider_wrapp,
+.special_wrapper .main-slider {
+  height: 100% !important;
+  max-height: 365px !important;
+}
+
+.goodoftheday-wrapper .wrapp-one-click,
+.goodoftheday-wrapper .counter_block_inner {
+  display: none;
+}
+
+.price_basket-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 300px;
+}
+
+.goodoftheday-wrapper .counter_wrapp.list .to-cart {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  width: auto !important;
+}
+
+.goodoftheday-wrapper .hot-wrapper-items .cost.prices {
+  margin-top: 0 !important;
+}
+
+.goodoftheday-wrapper .hot-wrapper-items .item .rating {
+  margin: 0 0 0 0 !important;
+}
+
+.hot-wrapper-items .image a {
+  height: 80% !important;
+  margin: 0 !important;
+}
+
+.goodoftheday-wrapper .flex-control-nav {
+  display: none !important;
+}
+
+.goodoftheday-wrapper .hot-wrapper-items .item .image-wrapper {
+  margin-bottom: 0 !important;
+}
+
+.goodoftheday-wrapper .item_info {
+  margin-top: -30px !important;
+  z-index: 999;
+}
+
+@media (min-width: 1920px) {
+  .special_wrapper .slide {
+    max-width: 1150px;
+  }
+}
+
+/*@media (min-width: 1920px) and (max-width:1999){
+.special_wrapper .slide {
+	max-width: 1000px;
+    	margin-left: 50px;
+}
+}*/
+
+@media (min-width: 1024px) and (max-width: 1919px) {
+  .special_wrapper .slide {
+    width: 75% !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /*.special_wrapper {
+	gap: 25px !important;
+}
+.special_wrapper .slide {
+	width: 65% !important;
+}
+.special_wrapper .child {
+	width: 22% !important;
+}*/
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .special_wrapper .slide {
+    width: 62% !important;
+  }
+  .special_wrapper .child {
+    width: 25% !important;
+  }
+
+  .top_big_banners .special_wrapper .child {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 899px) {
+  .goodoftheday-wrapper {
+    margin-top: 15px;
+  }
+  .goodoftheday_special-wrapper {
+    justify-content: center !important;
+    flex-direction: row;
+  }
+  .goodoftheday-wrapper .content_wrapper_block {
+    width: 100%;
+  }
+  .goodoftheday-wrapper .image {
+    max-width: 310px;
+  }
+  .goodoftheday-wrapper .hot-wrapper-items .item .image-wrapper {
+    min-height: 250px !important;
+  }
+  .goodoftheday-wrapper .items {
+    min-width: inherit;
+    max-width: inherit;
+    min-height: inherit;
+  }
+  .goodoftheday-wrapper .hot-wrapper-items .item_info {
+    text-align: left !important;
+  }
+  .goodoftheday-wrapper .hot-wrapper-items .item .rating {
+    justify-content: flex-start !important;
+  }
+  .goodoftheday-wrapper .flex-direction-nav {
+    display: block !important;
+  }
+  .goodoftheday-wrapper .title {
+    max-width: 290px;
+  }
+}
+
+@media (max-width: 576px) {
+  .goodoftheday-wrapper {
+    margin-top: 15px;
+  }
+  .goodoftheday-wrapper .hot-wrapper-items .image a {
+    min-height: 150px !important;
+  }
+  .price_basket-wrapper {
+    gap: 25px;
+  }
+  .goodoftheday-wrapper .mobile-margin-16.mobile-compact {
+    padding: 0;
+  }
+  .goodoftheday-wrapper .like_icons {
+    display: none !important;
+  }
+  .goodoftheday-wrapper .flexslider,
+  .goodoftheday-wrapper .flex-direction-nav {
+    display: block !important;
+  }
+  .price_basket-wrapper {
+    justify-content: space-around;
+  }
+  .goodoftheday-wrapper .title {
+    max-width: 285px;
+  }
+}

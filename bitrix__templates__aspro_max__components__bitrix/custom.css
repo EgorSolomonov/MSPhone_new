@@ -1,0 +1,132 @@
+/*NOTE: This file is intended for programmers. Aspro technical support is not advised to work with him.*/
+
+/* Examples (uncomment to use):*/
+
+/* Expand site width */
+/* body .wrapper { max-width: 1400px !important;  } */
+
+/* Set site background image */
+/* body {  background: url(image_source) top no-repeat; }
+
+/* Hide compare button */
+/* a.compare_item { display: none !important;  }*/
+
+/* О компании */
+
+.aboutCompany li:before {
+  display: none;
+}
+
+/* Кастом футера */
+.subscribe-block-wrapper .inner-wrapper {
+  max-width: 100%;
+}
+
+.subscribe-block-wrapper .inner-wrapper .row > div {
+  vertical-align: top;
+}
+
+body .subscribe-block-wrapper .text {
+  font-weight: inherit;
+}
+
+.ip_data {
+  margin-top: 10px;
+}
+
+.price_matrix_wrapper .price_value {
+  color: black;
+}
+.price_matrix_wrapper .price_currency {
+  color: black;
+}
+.price_matrix_wrapper .price_measure {
+  color: black;
+}
+
+@media (min-width: 992px) {
+  .special_wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  .top_slider_wrapp {
+    border-radius: 5px;
+  }
+  .special_wrapper .child {
+    padding-left: 15px !important;
+  }
+  .top_big_banners .top_slider_wrapp .main-slider,
+  .top_big_banners .top_slider_wrapp .main-slider__item,
+  .top_big_banners .top_slider_wrapp .main-slider__item td {
+    height: 400px;
+  }
+}
+
+/* Кастом Хит продаж на главной */
+
+#myCarousel_bestChoice,
+#myCarousel_giftsFor, #myCarousel_giftsForHer {
+  --f-carousel-spacing: 10px;
+}
+#myCarousel_bestChoice .f-carousel__dots,
+#myCarousel_giftsFor .f-carousel__dots, #myCarousel_giftsForHer .f-carousel__dots {
+  display: none;
+}
+.top_block .right_block_wrapper {
+  display: none;
+}
+
+#myCarousel_bestChoice .f-carousel__viewport,
+#myCarousel_giftsFor .f-carousel__viewport, #myCarousel_giftsForHer .f-carousel__viewport{
+  overflow: visible !important;
+  overflow-x: hidden !important;
+  /* height: auto !important; */
+}
+
+#myCarousel_bestChoice .f-carousel__track,
+#myCarousel_giftsFor .f-carousel__track, #myCarousel_giftsForHer .f-carousel__track {
+  height: auto !important;
+}
+
+#myCarousel_bestChoice .f-carousel-slide,
+#myCarousel_giftsFor .f-carousel-slide, #myCarousel_giftsForHer .f-carousel-slide {
+}
+
+@media (min-width: 599px) {
+  #myCarousel_bestChoice,
+  #myCarousel_giftsFor, #myCarousel_giftsForHer {
+    height: 550px;
+  }
+}
+
+.f-carousel.has-dots {
+  margin-bottom: 0px;
+}
+
+/* Кастом Хит продаж на главной end */
+ 
+.char-side__title {
+  color: black;
+  font-weight: 900;
+}
+
+.bx-soa-cart-conditions-text a,
+.total-scroll-info__value span {
+  color: black;
+}
+.ip_data a {
+  color: white;
+}
+.basket-item-property-custom {
+  display: none;
+}
+#bx-soa-total .bx-soa-cart-total .bx-soa-cart-total-line:nth-child(4) {
+	display:none;
+}
+.custom_contacts_view {
+	display: flex;
+    	justify-content: space-between;
+    	width: 100%;
+    	flex-wrap: wrap;
+}

@@ -118,6 +118,9 @@ $this->addExternalJS(SITE_TEMPLATE_PATH . "/components/bitrix/catalog.section/ca
 					$arOfferProps = '';
 				}
 				?>
+				<? // перемешиваем массив рандомно перед выводом
+				shuffle($arResult["ITEMS"]);
+				?>
 				<? foreach ($arResult["ITEMS"] as $arItem) { ?>
 					<? $this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_EDIT"));
 					$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BCS_ELEMENT_DELETE_CONFIRM')));
